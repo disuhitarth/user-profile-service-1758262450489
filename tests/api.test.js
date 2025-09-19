@@ -1,0 +1,48 @@
+// Generated javascript code for Generate complete, production-ready code for tests/api.test.js in a api_service project.
+
+Project: user-profile-service
+Description: RESTful API service for managing user authentication, profiles, and account management with secure JWT tokens
+Tech Stack: {"frontend":[],"backend":["Node.js","Express","Passport.js","JWT","Bcrypt","Joi validator"],"database":["MongoDB","Redis for session cache"]}
+Features: JWT authentication, User registration, Login/logout management, Password reset flow, Profile CRUD operations, Role-based access control, Email verification, Session management, Profile photo upload, Activity logging
+
+Context from other files:
+package.json:
+{
+  "name": "user-profile-service",
+  "version": "1.0.0",
+  "description": "RESTful API service for user authentication and profile management",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --cov...
+
+README.md:
+# User Profile Service
+
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D%2016.0.0-brightgreen.svg)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/express-%5E4.18.0-blue.svg)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/mongodb-%5E5.0.0-green.svg)](htt...
+
+src/index.js:
+```javascript
+require('dotenv').config();
+const express = require('express');
+const mongoose = require('mongoose');
+const passport = require('passport');
+const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+const compression = require('comp...
+
+Generate ONLY the file content, no explanations. Make it:
+- Production-ready and complete
+- Following best practices
+- Secure and optimized
+- Well-commented
+- Compatible with the tech stack
+- Implementing the required features
+
+For tests/api.test.js:
+// Implementation would go here
